@@ -31,7 +31,10 @@ import android.os.Bundle;
       Zeroarithm
       SchetThrwasOper +
       PowOper two meth recursion, cicle +
-ShiftOper Exception not chislo Not divide Debugt
+ShiftOper
+Exception not chislo +
+ Not divide +
+ Debugt
  */
 
 public class MainActivity extends AppCompatActivity {

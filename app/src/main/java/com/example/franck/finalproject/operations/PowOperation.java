@@ -2,6 +2,8 @@ package com.example.franck.finalproject.operations;
 
 //Exception
 
+import com.example.franck.finalproject.exceptions.PowException;
+
 public class PowOperation implements Operation {
 
     private long recurtion(long a, long n) {
@@ -22,7 +24,10 @@ public class PowOperation implements Operation {
     }
 
     @Override
-    public long calculate(long a, long b) {
+    public long calculate(long a, long b) throws PowException {
+        if(b < 1) {
+            throw new PowException("I can pow number more than 1", (int)b);
+        }
         return loop(a,b);
     }
 }
