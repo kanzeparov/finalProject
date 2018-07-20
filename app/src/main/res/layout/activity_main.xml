@@ -37,25 +37,29 @@
             android:layout_weight="1"
             android:text="+"
             android:id="@+id/plusBtn"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:id="@+id/minusBtn"
             android:text="-"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:id="@+id/mltBtn"
             android:text="*"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:id="@+id/doublemltBtn"
             android:text="**"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -66,19 +70,22 @@
             android:layout_weight="1"
             android:text="Степень"
             android:id="@+id/powBtn"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:id="@+id/countBtn"
             android:text="Счетчик"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:id="@+id/divBtn"
             android:text="/"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +96,8 @@
             android:layout_weight="1"
             android:text="Стоп"
             android:id="@+id/stopBtn"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -99,6 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
+            android:id="@+id/answerText"
             android:text="Answer"/>
     </LinearLayout>
 </LinearLayout>
