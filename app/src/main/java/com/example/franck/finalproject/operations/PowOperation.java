@@ -1,7 +1,8 @@
 package com.example.franck.finalproject.operations;
 
-//Exception
-
+/*
+Создайте класс PowOperation реализуйте интерфейс Operation, двумя способами реализуйте возведение в степень 1.через цикл 2. через рекурсию, в методе calculate выкиньте исключение если b<1
+ */
 import com.example.franck.finalproject.exceptions.PowException;
 
 public class PowOperation implements Operation {
@@ -28,6 +29,6 @@ public class PowOperation implements Operation {
         if(b < 1) {
             throw new PowException("I can pow number more than 1", (int)b);
         }
-        return loop(a,b);
+        return recurtion(a,b);
     }
 }
