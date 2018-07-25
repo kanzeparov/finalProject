@@ -1,6 +1,7 @@
 package com.example.franck.finalproject.operations;
 /*
-Создайте класс MinusOperation переопределив метод calculate, не забудьте реализовать интерфейс Operation, создайте функцию public long multiply(long a, long b)
+Создайте класс MinusOperation переопределив метод calculate,
+не забудьте реализовать интерфейс Operation, создайте функцию public long multiply(long a, long b)
  */
 public class MultiplyOperation implements Operation {
     public long multiply(long a, long b) {

@@ -1,7 +1,11 @@
 package com.example.franck.finalproject.operations;
 
 /*
-Создайте класс PowOperation реализуйте интерфейс Operation, двумя способами реализуйте возведение в степень 1.через цикл 2. через рекурсию, в методе calculate выкиньте исключение если b<1
+Создайте класс PowOperation реализуйте интерфейс Operation,
+двумя способами реализуйте возведение в степень
+1.через цикл
+2. через рекурсию, в методе calculate
+выкиньте исключение если b<1
  */
 import com.example.franck.finalproject.exceptions.PowException;
 

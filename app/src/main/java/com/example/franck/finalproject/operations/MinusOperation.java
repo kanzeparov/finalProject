@@ -1,6 +1,7 @@
 package com.example.franck.finalproject.operations;
 /*
-Создайте класс MinusOperation переопределив метод calculate, не забудьте реализовать интерфейс Operation
+Создайте класс MinusOperation переопределив метод calculate,
+не забудьте реализовать интерфейс Operation
  */
 public class MinusOperation implements Operation {
     @Override
